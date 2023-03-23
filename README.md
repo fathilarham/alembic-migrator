@@ -3,7 +3,7 @@ A simple tool to migrate a service database schema.
 DB Migrator supports OS Environment or YAML config type.
 
 ## How to use
-1. Build/Pull the DB Migrator image. ([Installation](#installation))
+1. Pull/Build the DB Migrator image. ([Installation](#installation))
 1. Run the image to the container. ([Setup](#setup-service-template))
 1. Run the available DB Migrator operations from the container. ([Operations](#operations))
 

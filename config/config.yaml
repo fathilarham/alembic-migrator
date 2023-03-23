@@ -1,0 +1,6 @@
+Postgres:
+  Host: localhost
+  Port: 5432
+  User: secret
+  Password: secret
+  DBName: playground

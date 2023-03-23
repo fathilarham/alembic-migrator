@@ -9,10 +9,11 @@ DB Migrator supports OS Environment or YAML config type.
 
 
 ## Installation
-Pull the docker image
+Pull the image from ghcr.io
 ```bash
 docker pull ghcr.io/fathilarham/alembic-migrator
 ```
+
 
 ## Installation (Manual Build)
 If you want to manually build the docker image, make sure you have a Docker & Git installed on your machine.
@@ -48,7 +49,7 @@ docker run -d -it --name alembic-migrator \
     -e DB_NAME=playground \
     -v {{ your database versions directory path }}:/app/alembic/versions \
     -v {{ your database schema.py path }}:/app/schema.py \
-    fathilarham/alembic-migrator:latest 
+    ghcr.io/fathilarham/alembic-migrator:latest 
 ```
 
 
@@ -61,7 +62,7 @@ docker run -d -it --name alembic-migrator \
     -v {{ your config.yaml path }}:/app/config/config.yaml \
     -v {{ your database versions directory path }}:/app/alembic/versions \
     -v {{ your database schema.py path }}:/app/schema.py \
-    fathilarham/alembic-migrator:latest 
+    ghcr.io/fathilarham/alembic-migrator:latest 
 ```
 
 
